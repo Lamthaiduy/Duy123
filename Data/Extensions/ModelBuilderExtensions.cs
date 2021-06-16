@@ -21,7 +21,7 @@ namespace Data.Extensions
 					Sex = true,
 					Age = 18,
 					AcademicLevelId = 1,
-					DoB = new DateTime(12, 12, 2000),
+					DoB = new DateTime(2000, 06, 12),
 					Email = "duy@gmail.com",
 					NormalizedEmail = "duy@gmail.com",
 					EmailConfirmed = true,
@@ -32,7 +32,7 @@ namespace Data.Extensions
 					SecurityStamp = string.Empty,
 				}
 				);
-			modelBuilder.Entity<User>().HasData(
+			modelBuilder.Entity<AcademicLevel>().HasData(
 				new AcademicLevel()
 				{
 					Id = 1,
